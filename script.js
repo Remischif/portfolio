@@ -6,4 +6,4 @@ function updateDateTime() {
 }
 
 updateDateTime(); // première exécution
-setInterval(updateDateTime, 1000); // mise à jour toutes les secondes
+setInterval(updateDateTime, 1000); // mise à jour toutes les secondes (1000 ms = 1 s)

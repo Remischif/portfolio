@@ -14,9 +14,18 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: -webkit-linear-gradient(-45deg, #cee5ff, #396cca);
+    background-color: #1d2542;
+    /* background: -webkit-linear-gradient(-45deg, #cee5ff, #396cca); */
     /* color: rgba(255, 255, 255, 0.911); */
-    color: #333;
+    color: #ced0d3;
+}
+
+body > h2,
+body > h3,
+body > h4,
+body > div,
+body > p {
+    margin-left: 10px;
 }
 
 header {
@@ -35,8 +44,8 @@ nav a:hover {
     text-decoration: underline;
 }
 
-a {
-    color:rgb(19, 30, 182)
+a, a:visited, a:active, a:focus {
+    color:#dfe5ec
 }
 
 footer {
