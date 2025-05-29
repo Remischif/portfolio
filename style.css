@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 body {
     background-image: url("images/image-background.jpg");
@@ -53,4 +54,61 @@ footer {
     color: white;
     text-align: center;
     padding: 5px;
+=======
+/*
+body {
+    background-image: url("images/image-background.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+    width: 100% auto;
+    font-family: Arial, sans-serif;
+}
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #1d2542;
+    /* background: -webkit-linear-gradient(-45deg, #cee5ff, #396cca); */
+    /* color: rgba(255, 255, 255, 0.911); */
+    color: #ced0d3;
+}
+
+body > h2,
+body > h3,
+body > h4,
+body > div,
+body > p {
+    margin-left: 10px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+a, a:visited, a:active, a:focus {
+    color:#dfe5ec
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+>>>>>>> b402314719fc348cd0786e9c0c811a82ea400005
 }
