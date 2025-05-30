@@ -28,8 +28,18 @@ body > p {
     margin-left: 10px;
 }
 
-div > h2 {
+.section-title {
     text-decoration: underline;
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+}
+
+#skills > h2,
+#skills > h3 {
+    text-align: center;
 }
 
 header {
@@ -55,7 +65,7 @@ a, a:visited, a:active, a:focus {
 .skills-icons-container {
     display: flex;
     gap: 10px;
-    justify-content: left;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -89,13 +99,37 @@ a, a:visited, a:active, a:focus {
 }
 
 .skills-icons span.js {
-  display: block;
-  font-size: 15px;
-  font-weight: bold;
-  margin-top: 10px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#projects {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+#projects ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.column-left, .column-right {
+    flex: 1;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    background-color:#333;
+    border: 1px solid #ccc;
+}
+
+#datetime {
+    text-align: center;
 }
 
 footer {
