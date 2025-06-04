@@ -20,14 +20,6 @@ body {
     color: #ced0d3;
 }
 
-body > h2,
-body > h3,
-body > h4,
-body > div,
-body > p {
-    margin-left: 10px;
-}
-
 .section-title {
     text-decoration: underline;
     text-align: center;
@@ -110,8 +102,10 @@ a, a:visited, a:active, a:focus {
 
 #projects {
     display: flex;
-    gap: 20px;
+    gap: 40px;
     text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #projects ul {
@@ -120,16 +114,50 @@ a, a:visited, a:active, a:focus {
 }
 
 .column-left, .column-right {
-    flex: 1;
+    flex: 0 0 35%;
+    max-width: 600px;
     padding: 10px;
     flex-direction: column;
     align-items: center;
     background-color:#333;
     border: 1px solid #ccc;
+    box-sizing: border-box;
 }
 
 #datetime {
     text-align: center;
+}
+
+.contact-container {
+    display: inline-flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-box {
+    background-color: #424242;
+    width: 50px;
+    height: 50px;
+    line-height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-box.github:hover {
+    background-color: rgb(65, 131, 196);
+    transform: scale(1.1);
+}
+
+.contact-box.linkedin:hover {
+    background-color: rgb(0, 119, 181);
+    transform: scale(1.1);
+}
+
+.contact-box img {
+    width: 32px;
+    height: 32px;
 }
 
 footer {
@@ -137,8 +165,4 @@ footer {
     color: white;
     text-align: center;
     padding: 5px;
-}
-
-footer .contact-container {
-    display: inline-flex;
 }
