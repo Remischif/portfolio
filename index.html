@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <!--peut utiliser des <meta name="x" content="x" pour le SEO (optimiser moteur recherche)-->
     <title>Portfolio</title>
   </head>
@@ -13,117 +13,212 @@
   <header>
     <h1>Mon Portfolio</h1>
       <nav>
-        <a href="#about">À propos</a>
+        <a href="#skills">Compétences</a>
         <a href="#projects">Projets</a>
         <a href="#contact">Contact</a>
     </nav>
   </header>
 
-    <div id="about">
-      <h2 class="section-title"> À propos de moi</h2>
+  <main id="main">
+    <section id="about">
+      <h2 class="section-title" id="no-style"> À propos de moi</h2>
         <p>Je m'appelle Rémi SCHIFFERLING, je suis passioné par le développement web et animé par une forte envie d'apprendre et de résoudre des problèmes
           concrets à travers le code.<br> Curieux, rigoureux et toujours en quête de progression, je m'investis pleinement dans chaque projet.</p>
 
-        <p>Actuellement en formation de <strong>Développeur Web et Web Mobile</strong> à l'école <a href="https://www.eni-ecole.fr/">ENI</a>, 
+        <p>Actuellement en formation de <strong>Développeur Web et Web Mobile</strong> à <a href="https://www.eni-ecole.fr/"> l'école ENI Informatique</a>, 
           je suis à la recherche d'une alternance en contrat d'apprentissage
           pour une durée de deux ans.
         
-      <h3>Mon objectif</h3>
+        <h3>Mon objectif</h3>
         <p>Mettre mes compétences au service d'une entreprise ambitieuse, tout en consolidant mon expérience à travers des projets
           réels et impactants.</p>
-    </div>
+    </section>
 
-    <div id="skills">
+    <section id="skills">
       <h2 class="section-title">Mes compétences</h2>
 
       <h3>Acquises</h3>
         <div class="skills-icons-container">
-          <div class="skills-icons">
-            <a href="https://fr.wikipedia.org/wiki/HTML5"><img src="images/icons/html5.png" alt="HTML5 Icon"></a>
+          <a class="skills-icons" href="https://fr.wikipedia.org/wiki/HTML5" target="_blank">
+            <img src="images/icons/html5.png" alt="HTML5 Icon">
             <span>HTML</span>
-          </div>
-          <div class="skills-icons">
-            <a href="https://fr.wikipedia.org/wiki/CSS3"><img src="images/icons/css3.png" alt="CSS3 Icon"></a>
+          </a>
+          <a class="skills-icons" href="https://fr.wikipedia.org/wiki/CSS3" target="_blank">
+            <img src="images/icons/css3.png" alt="CSS3 Icon">
             <span>CSS</span>
-          </div>
-          <div class="skills-icons">
-            <a href="https://about.gitlab.com/fr-fr/"><img src="images/icons/gitlab.png" alt="GitLab Icon"></a>
+          </a>
+          <a class="skills-icons" href="https://about.gitlab.com/fr-fr/" target="_blank">
+            <img src="images/icons/gitlab.png" alt="GitLab Icon">
             <span>GitLab</span>
-          </div>
-          <div class="skills-icons">
-            <a href="https://github.com/"><img src="images/icons/github.png" alt="GitHub Icon"></a>
+          </a>
+          <a class="skills-icons" href="https://github.com/" target="_blank">
+            <img src="images/icons/github.png" alt="GitHub Icon">
             <span>GitHub</span>
-          </div>
+          </a>
+          <a class="skills-icons" href="https://fr.wordpress.org/" target="_blank">
+            <img src="images/icons/wordpress.png" alt="WordPress Icon">
+            <span class="too-long">Word<wbr>Press</span>
+          </a>
+          <a class="skills-icons" href="https://code.visualstudio.com/" target="_blank">
+            <img src="images/icons/vscode.png" alt="Visual Studio Code Icon">
+            <span class="too-long">Visual<wbr>Studio</span>
+          </a>
+          <a class="skills-icons" href="https://www.phpmyadmin.net/" target="_blank">
+            <img src="images/icons/phpmyadmin.png" alt="phpMyAdmin Icon">
+            <span class="too-long">phpMy<wbr>Admin</span>
+          </a>
         </div>
 
       <h3>En cours d'apprentissage et / ou utilisées lors de stages</h3>
         <div class="skills-icons-container">
-          <div class="skills-icons">
-            <a href="https://fr.wikipedia.org/wiki/JavaScript"><img src="images/icons/javascript.png" alt="JavaScript Icon"></a>
-            <span class="js">JavaScript</span>
-          </div>
-          <div class="skills-icons">
-            <a href="https://fr.wikipedia.org/wiki/PHP"><img src="images/icons/php.png" alt="PHP Icon"></a>
+          <a class="skills-icons" href="https://fr.wikipedia.org/wiki/JavaScript" target="_blank">
+            <img src="images/icons/javascript.png" alt="JavaScript Icon">
+            <span class="too-long">Java<wbr>Script</span>
+          </a>
+          <a class="skills-icons" href="https://fr.wikipedia.org/wiki/PHP" target="_blank">
+            <img src="images/icons/php.png" alt="PHP Icon">
             <span>PHP</span>
-          </div>
-          <div class="skills-icons">
-            <a href="https://fr.wikipedia.org/wiki/MySQL"><img src="images/icons/mysql.png" alt="MySQL Icon"></a>
+          </a>
+          <a class="skills-icons" href="https://www.mysql.com/fr/" target="_blank">
+            <img src="images/icons/mysql.png" alt="MySQL Icon">
             <span>MySQL</span>
-          </div>
-          <div class="skills-icons">
-            <a href="https://fr.wikipedia.org/wiki/Flutter_(logiciel)"><img src="images/icons/flutter.png" alt="Flutter Icon"></a>
+          </a>
+          <a class="skills-icons" href="https://flutter.dev/" target="_blank">
+            <img src="images/icons/flutter.png" alt="Flutter Icon">
             <span>Flutter</span>
+          </a>
+          <a class="skills-icons" href="https://fr.wikipedia.org/wiki/Extensible_Markup_Language" target="_blank">
+            <img src="images/icons/xml.png" alt="XML Icon">
+            <span>XML</span>
+          </a>
+          <a class="skills-icons" href="https://fr.wikipedia.org/wiki/Java_(langage)" target="_blank">
+            <img src="images/icons/javaSE.png" alt="Java SE Icon">
+            <span>Java SE</span>
+          </a>
+          <a class="skills-icons" href="https://spring.io/projects/spring-boot" target="_blank">
+            <img src="images/icons/javaspringboot.png" alt="Spring Boot Icon">
+            <span class="too-long">Spring<wbr>Boot</span>
+          </a>
+          <a class="skills-icons" href="https://symfony.com/" target="_blank">
+            <img src="images/icons/symfony.png" alt="Symfony Icon">
+            <span title="Symfony">Symfony</span>
+          </a>
+          <a class="skills-icons" href="https://getbootstrap.com/" target="_blank">
+            <img src="images/icons/bootstrap.png" alt="Bootstrap Icon">
+            <span class="too-long">Boot<wbr>strap</span>
+          </a>
+          <a class="skills-icons" href="https://jquery.com/" target="_blank">
+            <img src="images/icons/jquery.png" alt="jQuery Icon">
+            <span>jQuery</span>
+          </a>
+          <a class="skills-icons" href="https://angular.dev/" target="_blank">
+            <img src="images/icons/angular.png" alt="Angular Icon">
+            <span>Angular</span>
+          </a>
+          <a class="skills-icons" href="https://expressjs.com/" target="_blank">
+            <img src="images/icons/express.png" alt="Express.js Icon">
+            <span title="Express.js">Express.js</span>
+          </a>
+        </div>
+    </section>
+
+    <section id="projects">
+      <h2 class="section-title">Mes Projets</h2>
+        <div class="projects-columns">
+          <div class="column-left">
+            <h3>Projet principal</h3>
+              <p>M'améliorer en tant que Développeur Web,<br>puis devenir un Développeur Full-Stack polyvalent et en constante évolution</p>
+
+            <h3>Autres projets</h3>
+              <ul>
+                <li>Refaire ou améliorer ce portefolio au fil des années.</li>
+                <li>Avoir des projets secondaires dans mon temps libre en collaboration avec des collègues ou des amis</li>
+                <li>etc...</li>
+              </ul>
+          </div>
+
+          <div class="column-right">
+            <h3>Mon espace</h3>
+              <p>C'est ici que je stock tous mes petits projets et exploits divers:</p>
+              <ul>
+                <li><span><a href="recette.html" target="_self">Recette de Houmus</a> (HTML - entrainement sémantique) </span></li>
+                <li><span><a href="pages/landing_page.html" target="_blank">Landing Page</a> (Appuie sur le bouton vert !)<span>
+                <li><span><a href="#" target="_self">Évaluations de stage</a> (en cours)</span></li>
+                <li><span><a href="#" target="_self">Lettres de recommandation</a> (en cours)</span></li>
+                <li><span>etc...</span></li>
+              </ul>
           </div>
         </div>
+    </section>
+
+    <section id="e2c">
+      <h2 class="section-title">École de la 2ème chance</h2>
+        <p>J'ai réalisé un parcours de 10 mois à l'<a href="https://www.e2c92.fr/" target="_blank">E2C92</a> de Bagneux, qui est un centre de formation
+          pour les jeunes de 16 à 25 ans visant à d'être accompagné pour l'accès à un emploi ou une formation, ainsi qu'en découvrant des métiers<br>
+          lors de stages et de rencontres avec certaines entreprises, comme par exemple :</p>
+          <ul class="entreprises">
+            <li>
+              <a href="https://www.leroymerlin.fr/">Leroy Merlin</a>
+              <span>- Magasins de bricolage et décoration</span>
+            </li>
+            <li>
+              <a href="https://www.michelin.fr/">Michelin</a>
+              <span>- Fabriquant de pneus</span>
+            </li>
+            <li>Hôtellerie à Paris</li>
+            <li>
+              <a href="https://www.linkedin.com/company/dekra/">Dekra</a>
+              <span>- Automobilisme et transport</span>
+            </li>
+            <li>
+              <a href="https://www.orange.com/fr">Orange</a>
+              <span>- Opérateur de télécommunication et fournisseur internet</span>
+            </li>
+          </ul>
+        <p>J'ai aussi eu l'honneur d'avoir pu participer à une formation par le <a href="https://www.louvre.fr/">Musée du Louvre</a> pour savoir prendre la
+          parole en public, et décrire un travail ou une oeuvre à des spectateurs → <a>Voir le diplome</a> (en cours)
+        </p>
+    </section>
+
+    <section id="stages">
+      <h2 class="section-title">Mes Stages à l'E2C</h2>
+      <p>Durant mon parcours à l'E2C, j'ai réalisé plusieurs stages dans différentes entreprises. Pour chaque stage, tu peux consulter mes évaluations et recommandations.</p>
+      <ul>
+        <li>
+          <a href="#.html">Évaluations de stage</a>
+          <span>— Découvre mes retours et expériences</span>
+        </li>
+        <li>
+          <a href="#.html">Lettre(s) de recommandation</a>
+          <span>— Avis de mes tuteurs</span>
+        </li>
+      </ul>
+    </section>
+
+    <p id="datetime"></p>
+  </main>
+
+  <footer>
+    <div id="contact">
+      <h3>Me Contacter</h3>
+        <div class="contact-container">
+          <a href="https://github.com/Remischif" target="_blank" class="contact-box github">
+            <img src="images/icons/github-white.png" alt="Mon GitHub">
+          </a>
+
+          <a href="https://www.linkedin.com/in/r%C3%A9mi-schifferling-431750358/" target="_blank" class="contact-box linkedin">
+            <img src="images/icons/linkedin-white.png" alt="Mon LinkedIn">
+          </a>
+        </div>
+        <address>
+          Rémi SCHIFFERLING<br>
+          <!-- <a href="mailto:remi.schifferling@hotmail.com">remi.schifferling@hotmail.com</a><br> -->
+          remi.schifferling@hotmail.com<br>
+          0618880717
+        </address>
     </div>
+  </footer>
 
-    <h2 class="section-title">Mes Projets</h2>
-      <div id="projects">
-        <div class="column-left">
-          <h3>Projet principal</h3>
-            <p>M'améliorer en tant que Développeur Web,<br>puis devenir un Développeur Full-Stack polyvalent et en constante évolution</p>
-
-          <h4>Autres projets</h4>
-            <ul><li>Pouvoir améliorer ce portefolio au fil des années.</li>
-                <li>Avoir des projets secondaires avec des amis</li>
-                <li>etc...</li>
-            </ul>
-        </div>
-
-        <div class="column-right">
-          <h3>Mon espace</h3>
-            <p>C'est ici que je stock tous mes petits projets et tests:</p>
-            <ul>
-	            <li><p><a href="recette.html" target="_self">Recette de Houmus</a> (HTML - entrainement sémantique) </p></li>
-	            <li><p>etc...</p></li>
-            </ul>
-        </div>
-      </div><br>
-
-<p id="datetime"></p>
-
-<footer>
-  <div id="contact">
-    <h3>Me Contacter</h3>
-      <div class="contact-container">
-        <a href="https://github.com/Remischif" target="_blank" class="contact-box github">
-          <img src="images/icons/github-white.png" alt="Mon GitHub">
-        </a>
-
-        <a href="https://www.linkedin.com/in/r%C3%A9mi-schifferling-431750358/" target="_blank" class="contact-box linkedin">
-          <img src="images/icons/linkedin-white.png" alt="Mon LinkedIn">
-        </a>
-      </div>
-
-      <address>
-        Rémi SCHIFFERLING<br>
-        <!-- <a href="mailto:remi.schifferling@hotmail.com">remi.schifferling@hotmail.com</a><br> -->
-        remi.schifferling@hotmail.com<br>
-        0618880717
-      </address>
-  </div>
-</footer>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

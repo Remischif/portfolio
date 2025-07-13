@@ -1,0 +1,244 @@
+/* Style global */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* LOGO */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* MENU */
+.menu a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.menu a:hover {
+    color: #009966;
+}
+
+/* HERO SECTION */
+.hero {
+    background-image: url(../images/tea.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #00aa66;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    appearance: none;
+}
+
+.cta-button:hover {
+    background-color: #007744;
+}
+
+/* SECTION AVANTAGES */
+.avantages {
+    background-color: #fefefe;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.avantages h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+.avantage-liste {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.avantage {
+    background-color: #f4f4f4;
+    padding: 30px 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.avantage:hover {
+    transform: translateY(-5px);
+}
+
+.avantage .emoji {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.avantage h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #007744;
+}
+
+.avantage p {
+    font-size: 14px;
+    color: #444;
+}
+
+/* SECTION TÉMOIGNAGES */
+.temoignages {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.temoignages h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+.temoignage-liste {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.temoignage {
+    background-color: #f0f0f0;
+    padding: 30px 20px;
+    border-radius: 10px;
+    width: 300px;
+    font-style: italic;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.temoignage:hover {
+    transform: scale(1.02);
+}
+
+.temoignage span {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #555;
+    font-style: normal;
+}
+
+/* FOOTER */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #00cc88;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+
+    /* Réduction des paddings généraux */
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* HERO */
+    .hero {
+        padding: 60px 15px;
+    }
+
+    .hero-content {
+        padding: 30px 20px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    /* AVANTAGES */
+    .avantage-liste {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .avantage {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* TÉMOIGNAGES */
+    .temoignage {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    /* FOOTER */
+    footer {
+        font-size: 12px;
+        padding: 20px;
+    }
+
+}
